@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0f1115">
+<title>GymLog</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="view"></main>
+<div id="restbar" class="restbar" hidden></div>
+<nav id="nav">
+  <button data-tab="routines"><span>🏋️</span>Séances</button>
+  <button data-tab="lib"><span>📚</span>Exercices</button>
+  <button data-tab="journal"><span>📒</span>Journal</button>
+  <button data-tab="set"><span>⚙️</span>Réglages</button>
+</nav>
+<div id="overlay" class="overlay" hidden></div>
+<div id="toast" class="toast" hidden></div>
+<input type="file" id="fileIn" hidden>
+<script src="exercises.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
